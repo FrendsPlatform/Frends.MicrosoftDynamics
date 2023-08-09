@@ -11,7 +11,7 @@ public class Input
     /// <summary>
     /// Dataverse Connection String.
     /// </summary>
-    /// <example>AuthType=Office365;Username=jsmith @contoso.onmicrosoft.com;Password=passcode;Url=https://contoso.crm.dynamics.com</example>
+    /// <example>AuthType=Office365;Username=user;Password=passcode;Url=url</example>
     [PasswordPropertyText]
     [DisplayFormat(DataFormatString = "Text")]
     public string ConnectionString { get; set; }
